@@ -27,4 +27,35 @@ request body = {
 * Note: null *
 
 
+* ## Bank Transfer ##
+
+url = core-banking/bankTransfer
+
+request method = post
+
+request body = {
+    "account_bank": "044",
+    "account_number": "0690000040",
+    "amount": 7500,
+    "narration": "Test",
+    "currency": "NGN",
+    "reference": "ref-2v21e2wfdfder 33",
+    "callback_url": "https://www.fame.com/ng/"
+  }
+
+* Note: null *
+* ## Transaction Fetch ##
+
+url = core-banking/validateBankAccount
+
+request method = get
+
+request body = {
+   
+
+  }
+
+* Note: null *
+
+
 
